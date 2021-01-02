@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="resources">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/src/main/resources" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jsp-api.jar!/" />
+    </excluded>
+    <jarDirectory url="file://$PROJECT_DIR$/src/main/resources" recursive="false" />
+  </library>
+</component>
