@@ -11,9 +11,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class DatabaceConnection {
-    Connection con = null;
-    public Connection getConection()
-    {InputStream in = Thread.currentThread().getContextClassLoader().getResourceAsStream("config/database.properties");
+    public static Connection  getConection()
+    {
+        InputStream in = Thread.currentThread().getContextClassLoader().getResourceAsStream("config/database.properties");
         Properties properties = new Properties();
         try {
             properties.load(in);
@@ -32,15 +32,6 @@ public class DatabaceConnection {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        con = connection;
         return connection;
-    }
-    public void closeConnection()
-    {
-        try {
-            con.close();
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
     }
 }

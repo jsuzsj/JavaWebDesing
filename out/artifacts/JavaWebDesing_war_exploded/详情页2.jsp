@@ -695,7 +695,7 @@
                 </div> 
             </div>
         </div> 
-    </div>
+    </section>
     <!--product area end-->
     
      <!--product area start-->
@@ -979,9 +979,13 @@
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>
+            </div>
+        </div>
  </footer>
-    
+            </div>
+        </div>
+    </section>
     <!-- modal area end-->
     
 <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>

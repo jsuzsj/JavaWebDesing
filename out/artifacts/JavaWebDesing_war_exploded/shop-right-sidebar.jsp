@@ -1446,9 +1446,12 @@
  
     <!--footer area end-->
    
-  
+            </div>
+        </div>
   
     </footer>
+        </div>
+    </div>
 <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
 <script src="assets/js/popper.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

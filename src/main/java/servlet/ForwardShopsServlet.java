@@ -25,7 +25,7 @@ doGet(request,response);
             pagel ="1";
         request.setAttribute("pagel",pagel);
         Integer nowPage = Integer.valueOf(pagel);
-        Integer cutnum = 6;
+        Integer cutnum = 4;
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("UTF-8");
         Integer countShop = DBUtil.getCountShop();

@@ -276,7 +276,9 @@
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>
+            </div>
+        </div>
  </footer>
     
     <!-- modal area end-->

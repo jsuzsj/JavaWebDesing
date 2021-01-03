@@ -16,6 +16,7 @@ doPost(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         Integer id = Integer.valueOf(request.getParameter("id"));
         if(DBUtil.isAdmin(id))
         {

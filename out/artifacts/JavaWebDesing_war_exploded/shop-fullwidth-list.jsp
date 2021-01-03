@@ -1272,7 +1272,8 @@
  
     <!--footer area end-->
    
-  
+            </div>
+        </div>
   
     </footer>
   

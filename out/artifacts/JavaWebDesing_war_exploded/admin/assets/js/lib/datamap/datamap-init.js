@@ -9,7 +9,6 @@ var map = new Datamap({
          popupOnHover: false,
          highlightOnHover: false,
          borderColor: '#8EC8FB',
-         borderWidth: 2,
          highlightBorderWidth: 5,
          highlightFillColor: '#fff',
          highlightBorderColor: 'rgba(255,255,255,0.1)',
